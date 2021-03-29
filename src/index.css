@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+a:visited {
+  color: black;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a:hover {
+  color: hotpink;
+}
+
+.nav-wrapper .container .brand-logo{
+  font-size: 3.5rem;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  background: rgb(11, 116, 185);
+  height: 80px;
+}
+
+.nav-wrapper .container .right{
+  background: rgb(106, 196, 3);
+  font-size: 1.5rem;
+  height: 40px;
+  margin: auto;
+  padding: 40px;
+  width: 60px;
+  float: left;  
+
+}
+
+.nav-wrapper .container .left{
+  background: rgb(218, 197, 14);
+  font-size: 1.0rem;
+  height: 40px;
+  margin: auto;
+  padding: 40px;
+  width: 60px;
+  float: right;
+}
+
+.container .center {
+  background: rgb(228, 69, 69);
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  display: flex;
+  font-size: 2.0rem;
+}
+
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+.material-icons{
+  font-size: 1.0rem;
+  cursor: pointer;
+  background: rgb(22, 7, 88);
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  display: flex;
+  color: white;
+  float: left;
+
+}
+
+.container .box{
+  font-size: 2.0rem;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  display: flex;
+  float: left;
+}
+
+.card{
+  width: 400px;
+}
+.card .card-image .card-title{
+  color: black;
+  font-weight: 400
+}
+
+.cart{
+  margin-top:40px;
+}
+
+.collection .collection-item{
+  display: flex;
+}
+
+.collection-item.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.collection .collection-item img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
+
+
+
+h5{
+  font-size: 2rem;
+
+}
+
+body {
+  background-color: rgb(183, 197, 197);
 }
